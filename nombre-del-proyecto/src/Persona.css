@@ -1,0 +1,31 @@
+/* src/Persona.css */
+
+/* Estilo para las tarjetas de persona */
+.persona-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  border-color: #ff6f61; /* Cambiar el color del borde a coral */
+  padding: 16px;
+  margin: 10px;
+  background-color: #ffe0e0; /* Fondo suave de salmón claro */
+  transition: transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra en la tarjeta */
+}
+
+.persona-card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo para el nombre de la persona */
+.persona-name {
+  font-size: 1.8em; /* Aumentar el tamaño de fuente */
+  color: #4a4a4a; /* Color gris oscuro */
+  margin: 0;
+  font-family: 'Georgia', serif; /* Cambiar la fuente */
+}
+
+/* Estilo para el email de la persona */
+.persona-email {
+  font-size: 1.1em;
+  color: #6a6a6a; /* Color gris más claro */
+}
